@@ -1,0 +1,15 @@
+name: Deploy to GitHub Pages
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: write
+    steps:
+    - name: Deploy MkDocs
+      uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
