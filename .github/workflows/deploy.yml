@@ -13,5 +13,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Deploy MkDocs
-      uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
+    - name: Setup MkDocs
+      run: pip install mkdocs mkdocs-material
+    - name: Build documentation
+      run: mkdocs build --clean --site-dir dist
+    - name: Deploy to GitHub Pages
+      run: mkdocs gh-deploy
