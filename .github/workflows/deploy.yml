@@ -11,5 +11,7 @@ jobs:
       packages: write
       contents: write
     steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
     - name: Deploy MkDocs
       uses: mhausenblas/mkdocs-deploy-gh-pages@1.26
