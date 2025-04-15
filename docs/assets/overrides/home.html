@@ -1,0 +1,41 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+<script type="module" src="/assets/js/extra.js"></script>
+
+<style>
+    .md-main__inner {
+        display: block;
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+
+    .md-content__inner {
+        margin: 0;
+        padding: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .md-content__inner::before {
+        height: 0;
+    }
+
+    /* Navigation */
+    .md-header {
+        background: #4051b5eb;
+        backdrop-filter: blur(15px);
+    }
+
+    [data-md-color-primary=black] .md-header {
+        background-color: hsla(230, 13%, 9%, 0.74);
+        backdrop-filter: blur(15px);
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<img class="bg-hero" src="/assets/theme/light/hero.webp" alt="Background image">
+<img class="bg-chr" src="/assets/theme/light/chr.webp" alt="Background image">
+{% endblock %}
