@@ -1,5 +1,12 @@
 {% extends "main.html" %}
 
+{% block announce %}
+<div>
+    hola mundo
+</div>
+{% endblock %}
+
+
 {% block extrahead %}
 <script type="module" src="/docs/assets/js/extra.js"></script>
 
@@ -24,13 +31,22 @@
 
     /* Navigation */
     .md-header {
-        background: #4051b5eb;
+        background: hsla(231, 48%, 48%, 0.90);
         backdrop-filter: blur(15px);
     }
 
     [data-md-color-primary=black] .md-header {
-        background-color: hsla(230, 13%, 9%, 0.74);
+        background-color: hsla(230, 13%, 9%, 0.75);
         backdrop-filter: blur(15px);
+    }
+
+    /* Banner */
+    [data-md-color-primary=black] .md-banner {
+        background-color: hsla(230, 13%, 9%, 0.25);
+    }
+
+    .md-banner {
+        background-color: hsla(231, 48%, 48%, .80);
     }
 </style>
 {% endblock %}
