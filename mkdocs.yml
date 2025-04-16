@@ -58,7 +58,6 @@ plugins:
   - blog
   - offline
   - awesome-nav
-  - link-embeds
   - github-repo-media-embed:
       download-folder: docs/assets/images/embed-github
 
