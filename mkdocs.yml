@@ -1,7 +1,7 @@
 site_name: Proyecto Grand Order
 site_url: https://proyectograndorder.es/docs
-repo_url: https://github.com/squidfunk/mkdocs-material
-repo_name: O-Isaac/docs
+repo_url: https://github.com/Proyecto-Grand-Order-Oficial/docs
+repo_name: Proyecto-Grand-Order-Oficial/docs
 
 extra_css:
   - assets/styles/extra.css
