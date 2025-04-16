@@ -24,11 +24,11 @@ img.bg-hero {
 }
 
 [data-md-color-scheme="slate"] img.bg-hero {
-    content: url("/assets/theme/dark/hero.webp");
+    content: url("/docs/assets/theme/dark/hero.webp");
 }
 
 [data-md-color-scheme="default"] img.bg-hero {
-    content: url("/assets/theme/light/hero.webp");
+    content: url("/docs/assets/theme/light/hero.webp");
 }
 
 /*  Hero Character  */
@@ -37,28 +37,40 @@ img.bg-chr {
     position: absolute;
     bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(25px);
     height: 100%;
     object-fit: cover;
 }
 
 [data-md-color-scheme="slate"] img.bg-chr {
-    content: url("/assets/theme/dark/chr.webp");
+    content: url("/docs/assets/theme/dark/chr.webp");
 }
 
 [data-md-color-scheme="default"] img.bg-chr {
-    content: url("/assets/theme/light/chr.webp");
+    content: url("/docs/assets/theme/light/chr.webp");
 }
 
 /* Animaciones */
 
 .fade-in {
     opacity: 0;
-    animation: fadeIn 2s ease-in forwards;
+    animation: fadeIn 500ms ease-in forwards;
 }
 
 @keyframes fadeIn {
-to {
-    opacity: 1;
-}
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(25px);
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: translateX(-50%) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+    
 }
