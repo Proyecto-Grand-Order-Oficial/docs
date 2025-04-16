@@ -1,1 +1,9 @@
+# Ignore builded site
 dist/
+
+# Ignore Python cache files and compiled files
+__pycache__/
+github_repo_media_embed.egg-info/
+
+# Ignore plugin generated images only in build time
+docs/assets/images/embed-github/
