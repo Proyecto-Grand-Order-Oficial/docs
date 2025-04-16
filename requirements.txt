@@ -1,3 +1,7 @@
+# Plugin Third Party
 mkdocs
 mkdocs-material
-mkdocs-rss-plugin
+mkdocs-awesome-nav
+
+# My Own Plugin
+-e ./plugins/github_repo_media_embed
