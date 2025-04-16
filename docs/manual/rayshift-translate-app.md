@@ -1,0 +1,39 @@
+---
+title: Rayshift Translate App
+---
+
+
+@Github(https://github.com/rayshift/translatefgo)
+
+
+# Rayshift Translate App
+
+Esta aplicación ofrece traducciones hechas por Máquina/MTL (Deepl) y manuales de eventos e historias recientes (al inglés) del juego en el Servidor
+JP y traducciones manuales al Español de la historia principal y diversos Eventos
+e Interludios, esta última utilizando la traducción oficial del Servidor NA. Además,
+traducciones al Francés, Indonesio, Ruso, Portugués y Árabe.
+
+## Requisitos
+
+Está disponible para Android 5, 6, 7, 8, 9, 10, 11, 12 y 13.
+No es necesario Root.
+Para Android 12 y 13 ya es completamente compatible, descargando la ultima versión.
+Para Android 14 o superior es posible el requisito de uso de una aplicación llamada "Shizuku".
+
+## ¿Cómo Instalo la app?
+
+- Asegúrese de tener instalado la última versión de Fate/Grand Order.
+- Inicie la aplicación de Fate/Grand Order para asegurarse de que no haya ninguna actualización adicional disponible. Una vez hecho eso, cierre la aplicación.
+- Descargue e Instale la última APK disponible de Rayshift.io Translate, por esta Web o nuestros medios Oficiales:
+- Seleccione y ajuste el idioma en el que desee que esté la aplicación
+- Si le pide que elija una carpeta, seleccione Aceptar y luego vuelva a seleccionar "Usar esta Carpeta".
+- Diríjase al apartado del Servidor que desea parchear (JP o NA).
+- Presione «Instalar» bajo el paquete de idiomas disponible en el Servidor seleccionado.
+- Una vez instalado, reabrir la aplicación de Fate/Grand Order.
+
+## ¿El texto es demasiado rápido o lento?
+
+Puede modificar la velocidad de texto en el apartado de configuración del juego:
+
+- Opción de Arriba: Velocidad de Texto
+- Opción de Abajo: Velocidad de Desplazamiento del Texto

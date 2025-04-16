@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: Inicio
 hide:
   - navigation
   - toc
