@@ -17,7 +17,7 @@ jobs:
       run: pip install mkdocs mkdocs-material
     - name: Build documentation
       run: mkdocs build --clean --site-dir dist
-    - name: Pull latest gh-page --rebase
-      run: git pull origin gh-pages
+    - name: Pull latest gh-page
+      run: git pull origin gh-pages --rebase
     - name: Deploy to GitHub Pages
       run: mkdocs gh-deploy
