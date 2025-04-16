@@ -1,0 +1,22 @@
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 500ms ease-in forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) translateY(25px);
+    }
+
+    50% {
+        opacity: 0.2;
+        transform: translateX(-50%) translateY(15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+    
+}

@@ -5,11 +5,15 @@ repo_name: docs
 
 extra_css:
   - assets/styles/extra.css
+  - assets/styles/blog.css
+  - assets/styles/hero.css
+  - assets/styles/animations.css
   
 theme:
   name: material
   custom_dir: docs/assets/overrides
   logo: assets/logo.svg
+  favicon: assets/favicon.png
   language: es
   features:
     - navigation.instant
@@ -18,9 +22,11 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.footer
+    - navigation.indexes
     - search.suggest
     - search.highlight
     - search.share
+    - announce.dismiss
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -45,22 +51,28 @@ theme:
   plugins:
     - optimize
 
-nav:
-  - Home: index.md
-  - About: about.md
-  - Blog:
-    - blog/index.md
+
 
 plugins:
   - search
   - blog
   - offline
+  - awesome-nav
+  - link-embeds
+  - github-repo-media-embed:
+      download-folder: docs/assets/images/embed-github
+
 
 extra:
   scope: /
   social:
-    - icon: fontawesome/brands/mastodon 
-      link: https://fosstodon.org/@squidfunk
     - icon: fontawesome/brands/github
       link: https://github.com/o-isaac/docs
       name: Github
+
+
+markdown_extensions:
+  - extra
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
