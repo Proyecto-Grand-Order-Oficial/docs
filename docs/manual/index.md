@@ -1,10 +1,9 @@
 ---
 title: Rayshift Translate App
+icon: material/book
 ---
 
-
 @Github(https://github.com/rayshift/translatefgo)
-
 
 # Rayshift Translate App
 
