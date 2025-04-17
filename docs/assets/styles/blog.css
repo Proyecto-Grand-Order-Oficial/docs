@@ -34,3 +34,7 @@
 .md-post .md-post__content h2 a:hover {
     color: var(--md-primary-bg-color--light);
 }
+
+[data-md-color-scheme="default"] .md-nav__item {
+    color: rgba(33, 37, 41, 0.8);
+}

@@ -2,7 +2,25 @@
     height: 40px;
 }
 
-.github-embed {
+.md-typeset img, .md-typeset svg, .md-typeset video {
+    height: auto;
+    max-width: 100%;
+    border-radius: 1rem;
     display: block;
-    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
+
+/* Center Buttons */
+
+.md-typeset p:has(> .md-button-center) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0.675rem;
+}
+
+@media (max-width: 768px) {
+    .md-typeset p:has(> .md-button-center) {
+        grid-template-columns: 1fr;
+    }
+}
+
