@@ -1,1 +1,4 @@
-authors: []
+authors:
+  - - name: Isaac
+      description: test
+      avatar: test
