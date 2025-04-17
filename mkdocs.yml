@@ -51,16 +51,14 @@ theme:
   plugins:
     - optimize
 
-
-
 plugins:
   - search
   - blog
   - offline
   - awesome-nav
-  - github-repo-media-embed:
-      download-folder: docs/assets/images/embed-github
 
+hooks:
+  - hooks/github-embed.py
 
 extra:
   scope: /
@@ -68,7 +66,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/o-isaac/docs
       name: Github
-
 
 markdown_extensions:
   - extra
