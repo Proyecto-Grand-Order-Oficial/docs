@@ -1,1 +1,6 @@
-authors: []
+authors:
+  - - name:
+        name: Testing
+        slug: testing
+      description: testing
+      avatar: test
