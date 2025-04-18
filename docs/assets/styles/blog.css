@@ -38,3 +38,17 @@
 [data-md-color-scheme="default"] .md-nav__item {
     color: rgba(33, 37, 41, 0.8);
 }
+
+.panel {
+    margin-right: 0.5rem;
+    position: relative;
+    cursor: grab;
+}
+
+.panel:active {
+    cursor: grabbing;
+}
+
+.panel a {
+    pointer-events: none;
+}
