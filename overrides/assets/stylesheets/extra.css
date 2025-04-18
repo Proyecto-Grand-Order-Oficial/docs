@@ -1,0 +1,26 @@
+.md-header__button.md-logo img {
+    height: 40px;
+}
+
+.md-typeset img, .md-typeset svg, .md-typeset video {
+    height: auto;
+    max-width: 100%;
+    border-radius: 1rem;
+    display: block;
+}
+
+/* Center Buttons */
+
+.md-typeset p:has(> .md-button-center) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0.675rem;
+}
+
+@media (max-width: 768px) {
+    .md-typeset p:has(> .md-button-center) {
+        grid-template-columns: 1fr;
+    }
+}
+
