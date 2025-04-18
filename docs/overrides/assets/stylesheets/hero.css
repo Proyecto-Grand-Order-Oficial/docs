@@ -10,11 +10,11 @@ img.bg-hero {
 }
 
 [data-md-color-scheme="slate"] img.bg-hero {
-    content: url("/docs/assets/theme/dark/hero.webp");
+    content: url("/docs/overrides/assets/images/theme/dark/hero.webp");
 }
 
 [data-md-color-scheme="default"] img.bg-hero {
-    content: url("/docs/assets/theme/light/hero.webp");
+    content: url("/docs/overrides/assets/images/theme/light/hero.webp");
 }
 
 /*  Hero Character  */
@@ -29,9 +29,9 @@ img.bg-chr {
 }
 
 [data-md-color-scheme="slate"] img.bg-chr {
-    content: url("/docs/assets/theme/dark/chr.webp");
+    content: url("/docs/overrides/assets/images/theme/dark/chr.webp");
 }
 
 [data-md-color-scheme="default"] img.bg-chr {
-    content: url("/docs/assets/theme/light/chr.webp");
+    content: url("/docs/overrides/assets/images/theme/light/chr.webp");
 }

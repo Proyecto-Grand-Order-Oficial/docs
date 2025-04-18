@@ -4,16 +4,23 @@ repo_url: https://github.com/rayshift/translatefgo
 repo_name: rayshift/translatefgo
 
 extra_css:
-  - assets/styles/extra.css
-  - assets/styles/blog.css
-  - assets/styles/hero.css
-  - assets/styles/animations.css
-  
+  - https://cdn.jsdelivr.net/npm/@egjs/flicking@4.12.0/dist/flicking.min.css
+  - overrides/assets/stylesheets/extra.css
+  - overrides/assets/stylesheets/blog.css
+  - overrides/assets/stylesheets/hero.css
+  - overrides/assets/stylesheets/animations.css
+
+extra_javascript:
+  - path: overrides/assets/javascript/extra.js
+    type: module
+  - path: overrides/assets/javascript/carousel.js
+    type: module
+
 theme:
   name: material
-  custom_dir: docs/assets/overrides
-  logo: assets/logo.svg
-  favicon: assets/favicon.png
+  custom_dir: docs/overrides
+  logo: overrides/assets/images/logo.svg
+  favicon: overrides/assets/images/favicon.png
   language: es
   features:
     - navigation.instant
