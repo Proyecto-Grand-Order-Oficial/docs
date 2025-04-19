@@ -24,3 +24,16 @@
     }
 }
 
+
+/* Navigation */
+
+[data-md-color-primary=black] .md-tabs {
+    border-top: 2px solid hsla(var(--md-hue), 48%, 50%, 1);
+    background-color: hsla(var(--md-hue), 48%, 50%, 0.3);
+    backdrop-filter: blur(15px);
+}
+
+.md-tabs {
+    border-top: 2px solid transparent;
+}
+
