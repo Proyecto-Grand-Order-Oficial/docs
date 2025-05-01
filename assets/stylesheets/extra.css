@@ -37,3 +37,10 @@
     border-top: 2px solid transparent;
 }
 
+img.skill-icon {
+    width: 40px;
+    vertical-align: middle;
+    display: inline;
+    margin-top: -5px;
+    border-radius: 0;
+}
